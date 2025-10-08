@@ -1,0 +1,11 @@
+services:
+  connector-anyrun-feed:
+    build: .
+    env_file: '.env'
+    container_name: connector-anyrun-feed
+    restart: always
+    volumes:
+      - anyrun_logs_volume:/anyrun/logs
+
+volumes:
+  anyrun_logs_volume:
