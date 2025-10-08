@@ -106,7 +106,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+anyrun-integration-ti-feeds/.env
 .venv
 env/
 venv/
