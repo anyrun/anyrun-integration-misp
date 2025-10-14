@@ -6,9 +6,9 @@
 
 ______________________________________________________________________
 
-# ANY.RUN Threat Intelligence Feeds Connector for MISP
+# ANY.RUN Threat Intelligence Feeds connector for MISP
 
-Connector delivers fresh, high-confidence IOCs directly from ANY.RUN’s interactive malware sandbox into MISP Events, empowering faster detection and response.
+The [TI Feeds](https://any.run/threat-intelligence-feeds/?utm_source=anyrungithub_misp_feeds&utm_medium=integration&utm_content=ti_feeds_landing) connector delivers fresh, high-confidence Indicators of Compromise (IPs, domains, URLs) directly from ANY.RUN’s Interactive Sandbox into MISP events, empowering faster detection and response for SOC teams. Over 15,000 companies fortify their security with TI Feeds' filtered, high-fidelity IOCs. The solution integrates seamlessly with SIEMs/XDRs/firewalls and other security systems for enhanced monitoring, detection, and blocking of malware and phishing threats.
 
 ### Setup Python script
 
@@ -41,18 +41,18 @@ $ python3 connector-anyrun-feed.py
 #  Setup secrets
 
 #### Click Administration, List Auth Keys
-![img.png](static/img.png)
+![static/img.png](static/img.png)
 
 #### Click Add authentication key
-![img_1.png](static/img_1.png)
+![static/img_1.png](static/img_1.png)
 
 #### Use API-KEY as the value for the environment variable: MISP_API_KEY
 
 ## Generate Basic Authentication token
 
-To obtain your Basic Authentication token, please contact your ANY.RUN account manager directly or fill out the request [form](https://any.run/demo/?utm_source=opencti_marketplace&utm_medium=integration&utm_campaign=opencti_form).
+To obtain your Basic Authentication token, please contact your ANY.RUN account manager directly or fill out the [request form](https://any.run/demo/?utm_source=anyrungithub_misp_feeds&utm_medium=integration&utm_content=demopage).
 
 Use Basic Authentication token as the value for the environment variable: ANYRUN_BASIC_TOKEN
 
 ## Support
-This is an ANY.RUN supported connector. If you need help, contact <support@any.run>
+This connector is supported by ANY.RUN. If you need help, contact <support@any.run>.
