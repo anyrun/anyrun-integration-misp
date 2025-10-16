@@ -21,9 +21,9 @@ Sourced from real-time investigations of active attacks across 15,000+ organizat
 ANY.RUN’s feeds are updated in real time, allowing you to track threats as they emerge, develop, and spread to take critical security actions early.
 
 #### Key advantages
-– **Unique data**: Fresh indicators from live detonations of attacks with links to sandbox sessions with full threat context, including TTPs.
-– **No false alerts**: Reliable IOCs with a near-zero false positive rate thanks to pre-processing.
-– **Prioritization of incidents**: SOC teams use TI Feeds as part of alert triage, incident response, and proactive hunting to effectively handle urgent threats.
+* **Unique data**: Fresh indicators from live detonations of attacks with links to sandbox sessions with full threat context, including TTPs.
+* **No false alerts**: Reliable IOCs with a near-zero false positive rate thanks to pre-processing.
+* **Prioritization of incidents**: SOC teams use TI Feeds as part of alert triage, incident response, and proactive hunting to effectively handle urgent threats.
 
 # Contacts
 For details on how you can make ANY.RUN's solutions a part of your infrastructure, [contact us](https://app.any.run/contact-us/?utm_source=anyrungithub_misp&utm_medium=integration&utm_content=contact_us).
