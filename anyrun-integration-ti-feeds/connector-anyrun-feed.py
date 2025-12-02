@@ -31,7 +31,7 @@ def main() -> None:
 
             logger.info(
                 f'Feeds enrichment is successfully ended. Next run at: '
-                f'{datetime.now(UTC) + timedelta(hours=Config.ANYRUN_FEED_FETCH_INTERVAL)}'
+                f'{datetime.now(UTC) + timedelta(minutes=Config.ANYRUN_FEED_FETCH_INTERVAL)}'
             )
 
             time.sleep(Config.ANYRUN_FEED_FETCH_INTERVAL * 60)

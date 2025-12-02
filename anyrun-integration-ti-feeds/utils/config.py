@@ -6,7 +6,7 @@ load_dotenv()
 
 
 class Config:
-    INTEGRATION: str = 'MISP:0.1'
+    INTEGRATION: str = 'MISP:1.0.1'
     DATE_TIME_FORMAT: str = '%Y-%m-%d %H:%M:%S'
 
     EVENT_UUID: UUID = UUID('c29f723b-4923-4356-aae7-4fe799f8965c')
