@@ -22,7 +22,7 @@ $ git clone git@github.com:anyrun/anyrun-integration-misp.git
 $ cd anyrun-integration-misp/anyrun-integration-ti-feeds
 ```
 
-#### Create and fill the .env config. See "Setup secrets" and "Generate Basic Authentication token" sections below
+#### Create and fill the .env config. See "Setup secrets" and “Generate your API key” sections below 
 ```console
 $ cp .env_example .env
 ```
@@ -48,11 +48,9 @@ $ python3 connector-anyrun-feed.py
 
 #### Use API-KEY as the value for the environment variable: MISP_API_KEY
 
-## Generate Basic Authentication token
+## Generate your API key 
 
-To obtain your Basic Authentication token, please contact your ANY.RUN account manager directly or fill out the [request form](https://any.run/demo/?utm_source=anyrungithub_misp_feeds&utm_medium=integration&utm_content=demopage).
-
-Use Basic Authentication token as the value for the environment variable: ANYRUN_BASIC_TOKEN
+Please use ANY.RUN’s API key without a prefix. Prefixed API keys and Basic Authentication for TI Feeds won’t be supported in future releases. For assistance or access to ANY.RUN’s services, please reach out to our [sales team](https://any.run/enterprise/?utm_source=anyrungithub_misp_feeds&utm_medium=integration&utm_content=linktoenterprise#contact-sales).
 
 ## Support
 This connector is supported by ANY.RUN. If you need help, contact <support@any.run>.
