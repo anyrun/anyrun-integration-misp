@@ -2,7 +2,7 @@ aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.12.14
 aiosignal==1.4.0
-anyrun-sdk==1.10.10
+anyrun-sdk==1.12.11
 attrs==25.4.0
 certifi==2025.10.5
 charset-normalizer==3.4.3

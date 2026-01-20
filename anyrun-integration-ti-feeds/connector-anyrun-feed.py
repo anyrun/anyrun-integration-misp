@@ -14,15 +14,13 @@ logger = FileLoggingManager()
 def main() -> None:
     misp = MISP()
 
-    with FeedsConnector(Config.ANYRUN_BASIC_TOKEN, integration=Config.INTEGRATION) as connector:
+    with FeedsConnector(Config.ANYRUN_API_KEY, integration=Config.INTEGRATION) as connector:
         while True:
             logger.info('Initialized Feeds enrichment.')
             for feeds in FeedsIterator.taxii_stix(
                 connector,
                 chunk_size=500,
                 limit=500,
-                match_type='indicator',
-                match_version='all',
                 modified_after=(
                     datetime.now(UTC) - timedelta(days=Config.ANYRUN_FEED_FETCH_DEPTH)
                 ).strftime(Config.DATE_TIME_FORMAT)

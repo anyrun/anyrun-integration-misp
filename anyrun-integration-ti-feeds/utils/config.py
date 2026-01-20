@@ -6,7 +6,7 @@ load_dotenv()
 
 
 class Config:
-    INTEGRATION: str = 'MISP:1.0.1'
+    INTEGRATION: str = 'MISP:1.1.1'
     DATE_TIME_FORMAT: str = '%Y-%m-%d %H:%M:%S'
 
     EVENT_UUID: UUID = UUID('c29f723b-4923-4356-aae7-4fe799f8965c')
@@ -25,5 +25,5 @@ class Config:
 
     ANYRUN_FEED_FETCH_DEPTH: int = int(os.environ.get('ANYRUN_FEED_FETCH_DEPTH'))
     ANYRUN_FEED_FETCH_INTERVAL: int = int(os.environ.get('ANYRUN_FEED_FETCH_INTERVAL'))
-    ANYRUN_BASIC_TOKEN: str = os.environ.get('ANYRUN_BASIC_TOKEN')
+    ANYRUN_API_KEY: str = os.environ.get('ANYRUN_API_KEY')
     LOGS_FILE_PATH: str = os.path.join(os.path.abspath('logs'), 'anyrun.logs')
