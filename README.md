@@ -27,4 +27,4 @@ ANY.RUN’s feeds are updated in real time, allowing you to track threats as the
 
 # Contacts
 For details on how you can make ANY.RUN's solutions a part of your infrastructure, [contact us](https://app.any.run/contact-us/?utm_source=anyrungithub_misp&utm_medium=integration&utm_content=contact_us).
-For technical assistance, reach out to <support@any.run>.
+For technical assistance, reach out to [techsupport@any.run](mailto:techsupport@any.run]).
