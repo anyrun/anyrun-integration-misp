@@ -1,4 +1,4 @@
-anyrun-sdk==1.13.11
-pymisp==2.5.17
+anyrun-sdk==1.14.19
+pymisp==2.5.34.4
 loguru==0.7.3
-python-dotenv==1.2.2
+python-dotenv==1.2.3

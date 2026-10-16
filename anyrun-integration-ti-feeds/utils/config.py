@@ -6,7 +6,7 @@ load_dotenv()
 
 
 class Config:
-    INTEGRATION: str = 'MISP:1.1.1'
+    INTEGRATION: str = 'MISP:1.2.1'
     DATE_TIME_FORMAT: str = '%Y-%m-%d %H:%M:%S'
 
     EVENT_UUID: UUID = UUID('c29f723b-4923-4356-aae7-4fe799f8965c')
@@ -22,6 +22,7 @@ class Config:
     MISP_API_KEY: str = os.environ.get('MISP_API_KEY')
     MISP_VERIFY_SSL: bool = True if os.environ.get('MISP_VERIFY_SSL') in (1, 'true', 'True') else False
     MISP_CERT: str = os.environ.get('MISP_CERT')
+    HTTP_PROXY: str = os.environ.get('HTTP_PROXY', '')
 
     ANYRUN_FEED_FETCH_DEPTH: int = int(os.environ.get('ANYRUN_FEED_FETCH_DEPTH'))
     ANYRUN_FEED_FETCH_INTERVAL: int = int(os.environ.get('ANYRUN_FEED_FETCH_INTERVAL'))
