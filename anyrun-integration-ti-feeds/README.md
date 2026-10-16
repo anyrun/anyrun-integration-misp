@@ -48,6 +48,9 @@ $ python3 connector-anyrun-feed.py
 
 #### Use API-KEY as the value for the environment variable: MISP_API_KEY
 
+**You can set up a proxy with the `HTTP_PROXY` env variable:**
+![static/img_2.png](static/img_2.png)
+
 ## Generate your API key 
 
 Please use ANY.RUN’s API key without a prefix. Prefixed API keys and Basic Authentication for TI Feeds won’t be supported in future releases. For assistance or access to ANY.RUN’s services, please reach out to our [sales team](https://any.run/enterprise/?utm_source=anyrungithub_misp_feeds&utm_medium=integration&utm_content=linktoenterprise#contact-sales).
